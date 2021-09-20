@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace LightFoot.Filters
+namespace ApiPublic.Filters
 {
     public class GroupingByNamespaceConvention : IControllerModelConvention
     {

@@ -5,7 +5,7 @@ using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading.Tasks;
 
-namespace LightFoot.Helpers
+namespace ApiPublic.Helpers
 {
     public static class IdentityExtensions
     {

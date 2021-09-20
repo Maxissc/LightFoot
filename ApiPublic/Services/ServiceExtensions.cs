@@ -1,7 +1,7 @@
-﻿using LightFoot.Filters;
+﻿using ApiPublic.Filters;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LightFoot.Services
+namespace ApiPublic.Services
 {
     public static class ServicesExtensions
     {

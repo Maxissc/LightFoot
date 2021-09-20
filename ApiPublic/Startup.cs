@@ -5,8 +5,8 @@ using System.Linq;
 using System.Reflection;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
-using LightFoot.Filters;
-using LightFoot.Services;
+using ApiPublic.Filters;
+using ApiPublic.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -17,7 +17,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace LightFoot
+namespace ApiPublic
 {
     public class Startup
     {
@@ -94,7 +94,7 @@ namespace LightFoot
                 app.UseDeveloperExceptionPage();
             }
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("v1/swagger.json", "LightFoot v1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("v1/swagger.json", "ApiPublic v1"));
 
             app.UseHttpsRedirection();
 

@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using LightFoot.Dtos.CompraVirtual;
-using LightFoot.Filters;
+using ApiPublic.Dtos.CompraVirtual;
+using ApiPublic.Filters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace LightFoot.Controllers.v1
+namespace ApiPublic.Controllers.v1
 {
     [ApiController]
     [Route("v1/[Controller]")]

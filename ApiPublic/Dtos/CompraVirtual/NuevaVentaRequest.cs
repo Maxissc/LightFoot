@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LightFoot.Dtos.CompraVirtual
+namespace ApiPublic.Dtos.CompraVirtual
 {
-    public class VentaResponse
+    public class NuevaVentaRequest
     {
+        //(id item, id cliente, cantidad, fecha requerida, precio).
         public int IdItem { get; set; }
         public int IdCliente { get; set; }
         public int Cantidad { get; set; }

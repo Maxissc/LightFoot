@@ -1,6 +1,6 @@
 using System;
 
-namespace LightFoot
+namespace ApiPublic
 {
     public class WeatherForecast
     {
